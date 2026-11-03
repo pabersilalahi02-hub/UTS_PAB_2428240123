@@ -154,6 +154,16 @@ height: 1.5,
 ),
 
 const SizedBox(height: 25),
+ClipRRect(
+borderRadius: BorderRadius.circular(12),
+child: Image.network(
+'https://picsum.photos/id/162/200/300',
+width: double.infinity,
+height: 200,
+fit: BoxFit.cover,
+),
+),
+
 
 const Center(
 child: Text(
